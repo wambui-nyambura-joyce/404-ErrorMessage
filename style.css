@@ -1,0 +1,33 @@
+.body{
+    display: flex;
+    /* margin-top: 60px; */
+    margin: 140px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 30px;
+}
+img{
+    width: 600px;
+}
+button{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+h1{
+    font-size: 60px;
+}
+p{
+    font-size: 1.25rem;
+    line-height: 32px;
+}
+.h5{
+    margin-left: 500px;
+}
+.texts{
+    margin-left: 50px;
+    word-spacing: 4px;
+    /* font-family: "Poppins", sans-serif; */
+}
