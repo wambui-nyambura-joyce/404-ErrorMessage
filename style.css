@@ -1,6 +1,5 @@
 .body{
     display: flex;
-    /* margin-top: 60px; */
     margin: 140px;
     font-family: "Poppins", sans-serif;
     margin-bottom: 30px;
@@ -29,5 +28,55 @@ p{
 .texts{
     margin-left: 50px;
     word-spacing: 4px;
-    /* font-family: "Poppins", sans-serif; */
 }
+
+
+@media screen and (max-width: 768px) {
+    .body {
+      flex-direction: column;
+      margin: 80px;
+    }
+  
+    img {
+      width: 100%;
+    }
+  
+    .h5 {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .texts {
+      margin-left: 0;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .body {
+      margin: 40px;
+    }
+  
+    h1 {
+      font-size: 40px;
+    }
+  
+    p {
+      font-size: 1rem;
+      line-height: 24px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .body {
+      margin: 20px;
+    }
+  
+    h1 {
+      font-size: 30px;
+    }
+  
+    p {
+      font-size: 0.875rem;
+      line-height: 20px;
+    }
+  }
